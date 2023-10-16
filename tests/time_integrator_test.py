@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from ..time_integrator import TimeIntegrator
+from multibody_dynamics_solver.time_integrator import TimeIntegrator
 import taichi as ti
 
 class TestInt(TimeIntegrator):

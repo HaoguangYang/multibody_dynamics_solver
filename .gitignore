@@ -1,0 +1,5 @@
+## Python Artifacts
+__pycache__/
+.eggs/
+*.py[cod]
+*$py.class

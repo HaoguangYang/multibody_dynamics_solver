@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from ..multibody_solver import *
-from ..spatial_transformations import *
+from multibody_dynamics_solver.multibody_solver import *
+from multibody_dynamics_solver.spatial_transformations import *
 
 import taichi as ti
 import numpy as np

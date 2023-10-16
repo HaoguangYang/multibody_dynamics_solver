@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-from spatial_transformations import *
-from time_integrator import TimeIntegrator
-from rigid_body_mechanics import *
+from .spatial_transformations import *
+from .time_integrator import TimeIntegrator
+from .rigid_body_mechanics import *
 
 import taichi as ti
 from enum import Enum

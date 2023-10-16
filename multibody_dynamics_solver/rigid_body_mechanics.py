@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from spatial_transformations import *
+from .spatial_transformations import *
 import taichi as ti
 import taichi.math as tm
 

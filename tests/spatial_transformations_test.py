@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-from ..spatial_transformations import *
-from ..rigid_body_mechanics import *
+from multibody_dynamics_solver.spatial_transformations import *
+from multibody_dynamics_solver.rigid_body_mechanics import *
+from multibody_dynamics_solver.time_integrator import TimeIntegrator
 import taichi as ti
 import taichi.math as tm
 
